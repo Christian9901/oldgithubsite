@@ -1,0 +1,67 @@
+.dsibutton.dsimain  {
+	color: #00BFFC;
+}
+.dsibutton {
+    background-color: #EFF7FF;
+    border: 1px solid #00BFFC;
+    border-radius: 4px;
+}
+.dsibutton:hover {
+    background-color: #8FE6FF;
+    border: 3px solid #00BFFC;
+	cursor: pointer;
+}
+.dsibutton.bigbutton {
+	width: 150px;
+    height: 30px;
+}
+.dsibutton.homeitemicon {
+	width: 40px;
+	height: 40px;
+	padding-left: 0px;
+	padding-top: 3px;
+	margin: 4px;
+	padding-right: 0px;
+}
+.dsibutton.longbutton {
+    width: 210px;
+    height: 20px;
+}
+.recommended {
+	background-image: url(recommendFrame.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 256px;
+	height: 120px;
+}
+.contentrec {
+	padding-top: 10px;
+}
+.iconsrec {
+	padding-top: 20px;
+}
+.optionbutton {
+	width: 256px;
+	cursor: pointer;
+	border: 1px solid #5BD692;
+	color: red;
+	background-color: #DEFDE6;
+	border-radius: 10px;
+}
+.optionbutton:hover {
+	border: 3px solid #00D19A;
+	background-color: #5FF9B7;
+}
+.newhome {
+	padding-right: 10px;
+}
+.dsibutton.startbutton {
+	width: 256px;
+	color: #31BDF7;
+	padding-top: 3px;
+	padding-bottom: 6px;
+}
+.welcomeimg {
+	border: 2px solid #00BFFC;
+    border-radius: 4px;
+}
