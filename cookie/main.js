@@ -7,8 +7,8 @@ Spoilers ahead.
 http://orteil.dashnet.org
 */
 
-var VERSION=CHUNGUS;
-var BETA=0.001;
+var VERSION=2.021;
+var BETA=1;
 
 
 /*=====================================================================================
