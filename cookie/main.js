@@ -7,8 +7,8 @@ Spoilers ahead.
 http://orteil.dashnet.org
 */
 
-var VERSION=2.021;
-var BETA=1;
+var VERSION=CHUNGUS;
+var BETA=0.001;
 
 
 /*=====================================================================================
@@ -601,7 +601,7 @@ Game.Launch=function()
 	'<div class="section">Info</div>'+
 	'<div class="subsection">'+
 	'<div class="title">About</div>'+
-	'<div class="listing">Cookie Clicker is a javascript game by <a href="http://orteil.dashnet.org" target="_blank">Orteil</a> and <a href="http://dashnet.org" target="_blank">Opti</a>.</div>'+
+	'<div class="listing">CHUNGUS Clicker (Cookie Clicker) is a javascript game by <a href="http://orteil.dashnet.org" target="_blank">Orteil</a> and <a href="http://dashnet.org" target="_blank">Opti</a>.</div>'+
 	//'<div class="listing">We have an <a href="https://discordapp.com/invite/cookie" target="_blank">official Discord</a>, as well as a <a href="http://forum.dashnet.org" target="_blank">forum</a>; '+
 	'<div class="listing">We have an <a href="https://discordapp.com/invite/cookie" target="_blank">official Discord</a>; '+
 		'if you\'re looking for help, you may also want to visit the <a href="http://www.reddit.com/r/CookieClicker" target="_blank">subreddit</a> '+
@@ -1399,7 +1399,7 @@ Game.Launch=function()
 		Game.bakeryNameRefresh=function()
 		{
 			var name=Game.bakeryName;
-			if (name.slice(-1).toLowerCase()=='s') name+='\' bakery'; else name+='\'s bakery';
+			if (name.slice(-1).toLowerCase()=='s') name+='\' bakery'; else name+='\'s chungus machine';
 			Game.bakeryNameL.innerHTML=name;
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') Game.Win('God complex');
@@ -13361,7 +13361,7 @@ Game.Launch=function()
 		
 		if (Game.T%(Game.fps*2)==0)
 		{
-			var title='Cookie Clicker';
+			var title='CHUNGUS clicker';
 			if (Game.season=='fools') title='Cookie Baker';
 			document.title=(Game.OnAscend?'Ascending! ':'')+Beautify(Game.cookies)+' '+(Game.cookies==1?'cookie':'cookies')+' - '+title;
 		}
