@@ -5854,11 +5854,11 @@ Game.Launch=function()
 				if (Math.random()<0.75 || Game.cookiesEarned<10000)
 				{
 					if (Game.Objects['Grandma'].amount>0) list.push(choose([
-					'<q>Moist cookies.</q><sig>grandma</sig>',
-					'<q>We\'re nice grandmas.</q><sig>grandma</sig>',
+					'<q>i am the "small chungus "</q><sig>small chungus</sig>',
+					'<q>nyeh. what,s up Dock</q><sig>big chungus</sig>',
 					'<q>Indentured servitude.</q><sig>grandma</sig>',
-					'<q>Come give grandma a kiss.</q><sig>grandma</sig>',
-					'<q>Why don\'t you visit more often?</q><sig>grandma</sig>',
+					'<q>i am a meme of fat " Bugs Bunny"</q><sig>small chungus</sig>',
+					'<q>im awsome</q><sig>small chungus</sig>',
 					'<q>Call me...</q><sig>grandma</sig>'
 					]));
 					
