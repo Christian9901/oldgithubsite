@@ -5859,17 +5859,12 @@ Game.Launch=function()
 					'<q>Indentured servitude.</q><sig>grandma</sig>',
 					'<q>i am a meme of fat " Bugs Bunny"</q><sig>small chungus</sig>',
 					'<q>im awsome</q><sig>small chungus</sig>',
-					'<q>Call me...</q><sig>grandma</sig>'
+					'<q>that,ll hold em alwight! nyeheheheheh.</q><sig>small chungus</sig>'
 					]));
 					
 					if (Game.Objects['Grandma'].amount>=50) list.push(choose([
-					'<q>Absolutely disgusting.</q><sig>grandma</sig>',
-					'<q>You make me sick.</q><sig>grandma</sig>',
-					'<q>You disgust me.</q><sig>grandma</sig>',
-					'<q>We rise.</q><sig>grandma</sig>',
-					'<q>It begins.</q><sig>grandma</sig>',
-					'<q>It\'ll all be over soon.</q><sig>grandma</sig>',
-					'<q>You could have stopped it.</q><sig>grandma</sig>'
+					'<q>Froend.</q><sig>small chungus</sig>',
+					'<q>I Am " BIg CHungus" And Im Awsome</q><sig>big chungus</sig>'
 					]));
 					
 					if (Game.HasAchiev('Just wrong') && Math.random()<0.4) list.push(choose([
@@ -6203,7 +6198,7 @@ Game.Launch=function()
 				else if (Game.cookiesEarned<500) list.push('there are is lot of people adopting baby "chungus" .');
 				else if (Game.cookiesEarned<1000) list.push('"people" are talkign about the baby chungus .');
 				else if (Game.cookiesEarned<5000) list.push('more "people"s are talking about "CHUNGUS"');
-				else if (Game.cookiesEarned<10000) list.push('The TOWN of WINDOW VILLE are talking about " CHUNGUS  BABY".');
+				else if (Game.cookiesEarned<10000) list.push('The TOWN of CHUNGUS TOWN are talking about " CHUNGUS  BABY".');
 				else if (Game.cookiesEarned<50000) list.push('there are GAY MALES adopting " CHUNGUS".');
 				else if (Game.cookiesEarned<100000) list.push('www.chungustown.com');
 				else if (Game.cookiesEarned<500000) list.push('"CHUNGUS" are worth lot.');
@@ -6211,18 +6206,18 @@ Game.Launch=function()
 				else if (Game.cookiesEarned<5000000) list.push('People are TRAVLINING From PAST to get "CHUNGUS BABY');
 				else if (Game.cookiesEarned<10000000) list.push('KINGDOM RULERS like having CHUNGUS.');
 				else if (Game.cookiesEarned<50000000) list.push('APRIL 12, 2030: There Is MUSEUM ABOUT CHUNGUS .');
-				else if (Game.cookiesEarned<100000000) list.push('MAY 20 BEOMES NATIONAL "CHUNGUS" DAY . ');
-				else if (Game.cookiesEarned<500000000) list.push('Your cookies have been named a part of the world wonders.');
-				else if (Game.cookiesEarned<1000000000) list.push('History books now include a whole chapter about your cookies.');
-				else if (Game.cookiesEarned<5000000000) list.push('Your cookies have been placed under government surveillance.');
-				else if (Game.cookiesEarned<10000000000) list.push('The whole planet is enjoying your cookies!');
-				else if (Game.cookiesEarned<50000000000) list.push('Strange creatures from neighboring planets wish to try your cookies.');
-				else if (Game.cookiesEarned<100000000000) list.push('Elder gods from the whole cosmos have awoken to taste your cookies.');
-				else if (Game.cookiesEarned<500000000000) list.push('Beings from other dimensions lapse into existence just to get a taste of your cookies.');
-				else if (Game.cookiesEarned<1000000000000) list.push('Your cookies have achieved sentience.');
-				else if (Game.cookiesEarned<5000000000000) list.push('The universe has now turned into cookie dough, to the molecular level.');
-				else if (Game.cookiesEarned<10000000000000) list.push('Your cookies are rewriting the fundamental laws of the universe.');
-				else if (Game.cookiesEarned<10000000000000) list.push('A local news station runs a 10-minute segment about your cookies. Success!<br><span style="font-size:50%;">(you win a cookie)</span>');
+				else if (Game.cookiesEarned<100000000) list.push('APRIL 20 BECOMES NATIONAL "CHUNGUS" DAY . ');
+				else if (Game.cookiesEarned<500000000) list.push('" BABY CHUNGUS" Is Are Now Universal ICONS');
+				else if (Game.cookiesEarned<1000000000) list.push('There Is HISTORY BOOK About CHUNGUS.');
+				else if (Game.cookiesEarned<5000000000) list.push('The GOVERNMENT Wants "BABY CHUNGUS". They Think It Awsome.');
+				else if (Game.cookiesEarned<10000000000) list.push('Breaking News: BABY CHUNGUS IS AWSOME!!!!!!!!!!!!!!');
+				else if (Game.cookiesEarned<50000000000) list.push('There Are Is ALIEN Coming Down To CHUNGUS TOWN Adoption To Buy BABY .');
+				else if (Game.cookiesEarned<100000000000) list.push('Literal GODS Come down to GET BABY "CHUNGI" ( Fat Bug Bunny,)');
+				else if (Game.cookiesEarned<500000000000) list.push('PEOPLE FROM OTHER DIMENSIONS COME TO CHUNGUS TOWN TO BUY BABY CHUNGUS!!!!');
+				else if (Game.cookiesEarned<1000000000000) list.push('THE CHUNGUSES ARE NOW SENTIENT!!!!');
+				else if (Game.cookiesEarned<5000000000000) list.push('THE ENTIRE UNIVERSE OWNS AT LEAST 1 BABY CHUNGUS!!!!');
+				else if (Game.cookiesEarned<10000000000000) list.push('THE BABY CHUNGUSES NOW KNOW HOW TO REWRITE THE ENTIRE UNIVERSE!!!!');
+				else if (Game.cookiesEarned<10000000000000) list.push('big chungus ooh nah nah. i am a meme of fat "bugs bunny " ooh nah nah.    CHUNGUS CHUNGUS CHUNGUS');
 				else if (Game.cookiesEarned<10100000000000) list.push('it\'s time to stop playing');//only show this for 100 millions (it's funny for a moment)
 			}
 			
